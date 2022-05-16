@@ -1,0 +1,36 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+
+html, body {
+  height:100%;
+  margin:0;
+}
+
+button:not([disabled]) {
+  cursor:pointer;
+}
+
+/* jouw CSS vanaf hier */
+
+h1 {
+  color:black;
+  position: absolute;
+  margin-top: 40px;
+  margin-left:500px;
+}
+
+
+  img{
+      max-width:30%;
+      object-fit: scale-down;
+/* bron: https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css*/
+      position:absolute;
+      margin-top: 160px;
+      margin-left: 70px;
+  }
+
+img :hover{
+
+}
