@@ -13,10 +13,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Sophia Delenardo
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
+Mijn startniveau is: Blauw
 
 
 
@@ -25,47 +25,48 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+  <summary>
+  Mijn persoonlijke uitdaging voor dit project is beter worden in css animaties. Mijn streven is om daadwerkelijk een werkende animatie te
+  maken in CCS.
+  </summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/afbeelding1.jpg" width="375px" alt="eerste versie/schets">
 
 
-  ### Je ambitie: 
+  ### Je ambitie:
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
- 
+  - CSS animaties
+  - Animatie aansturen via JavaScript
+
 </details>
-
-
 
 
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Tijdens de eerste feedback ronde had ik nog niet heel veel. Maar de feedback punten die ik had gekregen waren erg handig en heb ik bijna allemal mee genomen.</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Animaties wat duidelijk weergeven in je schetsen
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  De animatie op papier uitschetsen.
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Hoeveel jaartalen ga je laten zien in de tijdlijn? Alles is mischien een beetje veel.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Het limiteren van het aantal naar 3.
 
 
 
   ### Bevinding 3:
-  ...
+  Denk aan het startscherm en introductie scherm
+
+  #### oplossing:
+  Ik heb ervoor gekozen om geen start scherm te gebruiken maar gewoon een pagina.
 
 </details>
 
@@ -75,81 +76,64 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
-  
+  <summary>Tijdens deze feedback liep ik nog een beetje achter. Ik had nog geen werkende animatie en geen buttons. En de button moet  ook nog gelinkt worden
+  aan de animatie die ik wil toevoegen.
+  </summary>
+
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Werkende animatie maken
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Het daadwerkelijk maken van de animatie.
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De button maken en stijlen.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  De button aanmaken in HTML en vervolgens in CSS stijlen.
 
 
   ### Bevinding 3:
-  ...
-
-</details>
-
-
-
-## Voortgang/Feedback 3
-
-<details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
-  
-  ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Button linken aan de animatie.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 3:
-  ...
+  Via JavaScript de button linken. De slides bekijken en de voorbeelden.
 
 </details>
-
 
 
 
 ## Reflectie
 
 <details>
-  <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
+  <summary>Mijn eindresultaat & persoonlijke ontwikkeling
+  In de eerste week ben ik niet vaak op school geweest omdat ik helaas ziek was.
+  Ik heb toen thuis de afbeelding van het vliegtuig gemaakt en de eerste opzet.
+  In de tweede week was ik weer op school. Die maandag heb ik ook een grote sprong gemaakt in
+  mijn project. Hierbij heb ik hulp gehad van Renzo. Door deze dag had ik weer veel motivatie om door te gaan.
+  Dinsdag heb ik er veel aangewerkt omdat ik graag wilde dat het optijd af zou zijn. Er waren wat struggels met de animatie van het vliegtuigje
+  maar na veel proberen is het reddelijk gelukt.
+
+  </summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
 
 
-  ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  ### Dit ging goed/Heb ik geleerd:
+  - Animatie aanroepen met JavaScript.
+  - Meerdere animaties linken aan een button.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+
+  <img src="readme-images/afbeelding2.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  - Het is mij niet gelukt om meerdere mickey's toe te voegen.
+  - Ik had ook graag gewild dat de jaartalen  inbeeld hadden gekomen maar dit was helaas niet gelukt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
-
 
 
 
@@ -161,8 +145,11 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Renzo (hij heeft mij veel geholpen vooral kleine typfoutjes die ik maakte vond hij snel en hij heeft veel dingen kunnen uitleggen.)
+2. Can I move an animated line from right to left? (z.d.). Stack Overflow. Geraadpleegd op 15 mei 2022, van https://stackoverflow.com/questions/37590770/can-i-move-an-animated-line-from-right-to-left
+(dit was voor het vliegtuigje dat ik wilde laten bewegen van links naar rechts)
+3. CSS .class Selector. (z.d.). W3schools. Geraadpleegd op 15 mei 2022, van https://www.w3schools.com/cssref/sel_class.asp
+4. 77 CSS Animation Examples. (z.d.). Free Frontend. Geraadpleegd op 17 mei 2022, van https://freefrontend.com/css-animation-examples/
+
 
 </details>

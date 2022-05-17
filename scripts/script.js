@@ -1,5 +1,5 @@
 // JavaScript Document
-console.log("Howdy!");
+
 
 var hetVliegtuig = document.querySelector(".vliegtuig");
 var deButton = document.querySelector("button");
