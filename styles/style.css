@@ -39,7 +39,7 @@ h1 {
   margin-top: 1.5em;
   font-family: Mickey;
   color: #ffff;
-  font-size: 2.5em;
+  font-size: 3em;
 
 }
 
@@ -54,6 +54,8 @@ p{
 
 }
 
+/*Achtergrond*/
+
 img:first-of-type{
   object-fit: cover;
   position: absolute;
@@ -63,33 +65,26 @@ img:first-of-type{
   z-index: -1;
 }
 
-section img{
-    object-fit: contain;
-    position: absolute;
-    top: 15em;
-
-  }
-
-section img:first-of-type{
-  width:8%;
-  height:auto;
-  margin-left: 12em;
-  margin-top: 11.5em;
+/*list stijlen*/
+ul{
+  list-style: none;
 }
 
-section img:nth-of-type(4){
+/*stijling 1928*/
+ul li img:first-of-type{
   width:32%;
   height:auto;
   margin-left: 0em;
+  margin-top: 15em;
+  z-index: 1;
 }
 
+/*Animatie vliegtuig vliegen*/
 
-
-section.vliegen img{
+.vliegen{
   animation-name: vliegen1;
   animation-duration: 6s;
   animation-fill-mode: forwards;
-
 
 }
 @keyframes vliegen1{
@@ -102,45 +97,56 @@ section.vliegen img{
     left:63%;
 
   }
-
-}
-
-
-section.vliegen img:first-of-type{
-  animation-name:mickeyvliegen;
-  animation-duration: 6s;
-  animation-fill-mode: forwards;
-
-}
-
-@keyframes mickeyvliegen {
-
-  0%{
-    left:0%;
+  99%{
     opacity: 1;
-}
-
-25%{
-  opacity: 0;
-
-
-}
-
+  }
   100%{
-    left:63%;
     opacity: 0;
-
   }
 
 }
 
 
+/*Stijlen mickey 1930*/
+ul li img:nth-of-type(2){
+  width:30%;
+  height:auto;
+  margin-left: 0em;
+  margin-top: 4em;
+  z-index: 0;
 
-.button{
+
+}
+
+
+/*Animatie mickey 1930*/
+.vliegentwee{
+  opacity: 1;
+
+}
+
+/* mickey 1928 weg halen*/
+.vliegenweg{
+  opacity: 0;
+}
+
+
+/*Bron:VIDii 21-22 - VID 2 - lay-out slide intro flex box*/
+footer{
+  display: flex;
+  align-items: center;
   position: fixed;
   bottom: 3em;
+  /*Bron: Sanne in de les*/
   left:50%;
   transform:translateX(-50%);
+
+
+}
+
+/*Stijling van de button*/
+button{
+  flex-grow: 1;
   background-color: white;
   color:black;
   padding: 1em 2em;
@@ -149,22 +155,30 @@ section.vliegen img:first-of-type{
   font-weight: bold;
   font-size:16pt;
   text-decoration: none;
-  cursor: url('../images/handje.png'); /* gaat nog niet goedc*/
   border-radius: .7em;
   border:.08em  solid #000;
+  margin-left: 1em;
+
 }
 
-.button:hover{
+
+}
+
+li{
+ display: inline-block;
+}
+
+button:hover{
   background: rgb(106,106,106);
   background: linear-gradient(0deg, rgba(106,106,106,1) 0%, rgba(203,203,203,1) 100%);
   color: white;
   transition: .5s;
 }
 
-.button:visited{
+button:visited{
 }
 
-.button:active{
+button:active{
   box-shadow: .25em .7em rgba(0,0,0,80);
   transition: .1s;
 
@@ -172,89 +186,3 @@ section.vliegen img:first-of-type{
 
 
 /* mickey 1930 */
-
-section img:nth-of-type(2){
-  width:10%;
-  height:auto;
-  margin-left: 12em;
-  margin-top: -4em;
-  opacity: 0;
-
-}
-
-section.vliegen img:nth-of-type(2){
-  animation-name:mickeyvliegen2;
-  animation-duration: 6s;
-  animation-fill-mode: forwards;
-
-}
-
-@keyframes mickeyvliegen2 {
-
-  0%{
-    left:0%;
-    opacity: 0;
-}
-
-50%{
-  opacity: 1;
-
-}
-
-70%{
-  opacity: 0;
-
-}
-
-  100%{
-    left:63%;
-    opacity: 0;
-
-  }
-
-}
-/* mickey 1930 */
-
-section img:nth-of-type(3){
-  width:8%;
-  height:auto;
-  margin-left: 12em;
-  margin-top: -4em;
-  opacity: 0;
-
-
-}
-
-section.vliegen img:nth-of-type(3){
-  animation-name:mickeyvliegen3;
-  animation-duration: 6s;
-  animation-fill-mode: forwards;
-
-}
-
-@keyframes mickeyvliegen3 {
-
-  0%{
-    left:0%;
-    opacity: 0;
-}
-
-
-50%{
-  opacity: 0;
-
-}
-
-70%{
-  opacity: 1;
-
-}
-
-
-  100%{
-    left:63%;
-    opacity: 0;
-
-  }
-
-}
